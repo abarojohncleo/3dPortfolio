@@ -10,10 +10,13 @@ const Projects = () => {
     <section className="max-container">
 
       <h1 className="head-text">
-        My <span className="blue-gradient_text font-semibold drop-shadow"> Projects</span>
+        Page Development On Going
       </h1>
+      {/* <h1 className="head-text">
+        My <span className="blue-gradient_text font-semibold drop-shadow"> Projects</span>
+      </h1> */}
 
-      <div className="mt-5 flex flex-col gap-3 text-slate-500">
+      {/* <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
         Check out my latest projects, where tech meets creativity! Feel free to explore and, if you fancy, add your own touch to spice things up. 🚀✨
         </p>
@@ -49,7 +52,7 @@ const Projects = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
 
       <hr className="border-slate-200"/>
       <CTA />

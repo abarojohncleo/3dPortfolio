@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../../assets/images";
+import { meta, shopify, starbucks, tesla, questro, vanriix, idna, csb, freelance } from "../../assets/images";
 import {
     car,
     contact,
@@ -23,7 +23,26 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    django,
+    api,
+    bootstrap,
+    digitalocean,
+    docker,
+    figma,
+    gitlab,
+    gcp,
+    graphql,
+    heroku,
+    laravel,
+    linux,
+    mysql,
+    paypal,
+    postgre,
+    postman,
+    python,
+    stripe,
+    swagger
 } from "../../assets/icons";
 
 export const skills = [
@@ -31,6 +50,11 @@ export const skills = [
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
+    },
+    {
+        imageUrl: django,
+        name: "Django",
+        type: "Backend",
     },
     {
         imageUrl: express,
@@ -61,11 +85,6 @@ export const skills = [
         imageUrl: mongodb,
         name: "MongoDB",
         type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
     },
     {
         imageUrl: mui,
@@ -106,60 +125,161 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: api,
+        name: "API",
+        type: "Backend",
+    },
+    {
+        imageUrl: bootstrap,
+        name: "Bootstrap",
+        type: "Frontend",
+    },
+    {
+        imageUrl: digitalocean,
+        name: "Digital Ocean",
+        type: "Cloud Platform",
+    },
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "Backend",
+    },
+    {
+        imageUrl: figma,
+        name: "Figma",
+        type: "UI/UX",
+    },
+    {
+        imageUrl: gitlab,
+        name: "TypeScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: gcp,
+        name: "Google Cloud",
+        type: "Cloud Platform",
+    },
+    {
+        imageUrl: graphql,
+        name: "GraphQL",
+        type: "Backend",
+    },
+    {
+        imageUrl: heroku,
+        name: "Heroku",
+        type: "Cloud Platform",
+    },
+    {
+        imageUrl: laravel,
+        name: "Laravel",
+        type: "Backend",
+    },
+    {
+        imageUrl: postgre,
+        name: "Postgresql",
+        type: "Backend",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Backend",
+    },
+    {
+        imageUrl: stripe,
+        name: "Stripe",
+        type: "API integration",
+    },
+    {
+        imageUrl: swagger,
+        name: "Swagger",
+        type: "Backend",
+    },
+    {
+        imageUrl: linux,
+        name: "Linux OS",
+        type: "OS",
+    },
+    {
+        imageUrl: mysql,
+        name: "MySQL",
+        type: "Frontend",
+    },
+    {
+        imageUrl: paypal,
+        name: "PayPal",
+        type: "API integration",
+    },
+    {
+        imageUrl: postman,
+        name: "Postman",
+        type: "Backend",
     }
 ];
 
 export const experiences = [
+  {
+      title: "Backend || API Developer (Django)",
+      company_name: "Questronix",
+      icon: questro,
+      iconBg: "#a2d2ff",
+      date: "Jan 2023 - Present",
+      points: [
+          "Creates and maintains technologies that are needed to power the component that can be seen in the user interface of websites.",
+          "Develops API endpoints that also make use of third-party integration.",
+          "Testing, debugging, and documenting features according to clients' requests",
+          "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+  },
+  {
+      title: "Software || API Developer (Node - Express)",
+      company_name: "City Savings Bank",
+      icon: csb,
+      iconBg: "#c9afe9",
+      date: "Jan 2023 - Present",
+      points: [
+          "Developing and maintaining web applications using Node js and other related technologies.",
+          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+          "Developing scalable and robust REST API",
+          "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+  },
+  {
+    title: "Software Developer (Low/No Code)",
+    company_name: "VanriiX International Philippines Inc.",
+    icon: vanriix,
+    iconBg: "#666666",
+    date: "Jan 2022 - Jan 2023",
+    points: [
+        "Developing and maintaining web applications using No Code to Low Code Applications such as Directual, Adalo, Backendless.",
+        "Directly collaborates with CEO to ensure product satisfaction according to its defined requirements.",
+        "Responsible for both UI design and backend logic to process data and accomplish projects according to client requirements.",
+    ],
+  },
+  {
+    title: "Full Stack Developer (React + Node)",
+    company_name: "Innovator's DNA LLC",
+      icon: idna,
+      iconBg: "#c8e3e9",
+      date: "Jan 2021 - Feb 2022",
+      points: [
+          "Handles both Backend and Frontend web application development.",
+          "Maintains running web applications, and modifying npm package according to business necessities.",
+          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+          "Implementing responsive design and ensuring cross-browser compatibility.",
+          "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+  },
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
+        title: "Freelance Developer",
+        company_name: "Multiple Companies",
+        icon: freelance,
+        iconBg: "#f2f0eb",
         date: "March 2020 - April 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "DWorking with multiple business requirements given by product owners or team leader.",
+            "Handling different technology according to area of high priority which is needed to be done in a certain amount of time."
         ],
     },
 ];

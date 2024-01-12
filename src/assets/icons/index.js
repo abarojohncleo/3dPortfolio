@@ -24,10 +24,50 @@ import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
+import django from './django.svg'
+import api from './api.svg'
+import bootstrap from './bootstrap.svg'
+import digitalocean from './digitalocean.svg'
+import docker from './docker.svg'
+import figma from './figma.svg'
+import gitlab from './gitlab.svg'
+import heroku from './heroku.svg'
+import laravel  from './laravel.svg'
+import linux from './linux.svg'
+import mysql from './mysql.svg'
+import paypal from './paypal.svg'
+import postgre from './postgre.svg'
+import postman from './postman.svg'
+import python from './python.svg'
+import stripe from './stripe.svg'
+import swagger from './swagger.svg'
+import gcp from './gcp.svg'
+import graphql from './graphql.svg'
+
+
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 
 export {
+    api,
+    bootstrap,
+    digitalocean,
+    docker,
+    figma,
+    gitlab,
+    gcp,
+    graphql,
+    heroku,
+    laravel,
+    linux,
+    mysql,
+    paypal,
+    postgre,
+    postman,
+    python,
+    stripe,
+    swagger,
+    django,
     css,
     express,
     git,
