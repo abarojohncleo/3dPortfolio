@@ -224,7 +224,7 @@ export const experiences = [
       company_name: "Questronix",
       icon: questro,
       iconBg: "#a2d2ff",
-      date: "Jan 2023 - Present",
+      date:  "Oct 2020 - Feb 2022",
       points: [
           "Creates and maintains technologies that are needed to power the component that can be seen in the user interface of websites.",
           "Develops API endpoints that also make use of third-party integration.",
@@ -237,7 +237,7 @@ export const experiences = [
       company_name: "City Savings Bank",
       icon: csb,
       iconBg: "#c9afe9",
-      date: "Jan 2023 - Present",
+      date: "Oct 2020 - Feb 2022",
       points: [
           "Developing and maintaining web applications using Node js and other related technologies.",
           "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -250,7 +250,7 @@ export const experiences = [
     company_name: "VanriiX International Philippines Inc.",
     icon: vanriix,
     iconBg: "#666666",
-    date: "Jan 2022 - Jan 2023",
+    date: "Mar 2022 - Sep 2022",
     points: [
         "Developing and maintaining web applications using No Code to Low Code Applications such as Directual, Adalo, Backendless.",
         "Directly collaborates with CEO to ensure product satisfaction according to its defined requirements.",
@@ -262,7 +262,7 @@ export const experiences = [
     company_name: "Innovator's DNA LLC",
       icon: idna,
       iconBg: "#c8e3e9",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sep 2022 - Jul 2023",
       points: [
           "Handles both Backend and Frontend web application development.",
           "Maintains running web applications, and modifying npm package according to business necessities.",
@@ -276,7 +276,7 @@ export const experiences = [
         company_name: "Multiple Companies",
         icon: freelance,
         iconBg: "#f2f0eb",
-        date: "March 2020 - April 2021",
+        date: "Aug 2023 - Present",
         points: [
             "DWorking with multiple business requirements given by product owners or team leader.",
             "Handling different technology according to area of high priority which is needed to be done in a certain amount of time."
